@@ -55,7 +55,7 @@ export default function Edit({ attributes, setAttributes }) {
 						onSelect={(media) => {
 							const url = media.sizes.hasOwnProperty('bp-card-lg')
 								? media.sizes['bp-card-lg'].url
-								: 'https://via.placeholder.com/850x575/FF0000/FFFFFF?text=Source+Image+Must+Be+At+Least+850x575';
+								: 'https://via.placeholder.com/800x540/FF0000/FFFFFF?text=Source+Image+Must+Be+At+Least+800x540';
 							const id = media.sizes.hasOwnProperty('bp-card-lg')
 								? media.id
 								: 0;

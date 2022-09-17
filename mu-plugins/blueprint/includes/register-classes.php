@@ -2,11 +2,12 @@
 /**
  * Register the Blueprint classes
  *
- * @package Blueprint Plugins
+ * @package BlueprintPlugins
  */
 
 $classes = array(
 	\BlueprintPlugin\Settings\BlockSettings::class,
+	\BlueprintPlugin\Overrides\Overrides::class,
 );
 
 foreach ( $classes as $class ) {

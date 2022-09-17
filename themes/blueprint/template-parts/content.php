@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package blueprint
+ * @package Blueprint
  */
 
 ?>
@@ -53,5 +53,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
+
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

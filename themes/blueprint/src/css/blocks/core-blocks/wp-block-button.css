@@ -4,4 +4,14 @@
 
 		@mixin button-primary;
 	}
+
+}
+
+.wp-block-button.is-style-secondary {
+	
+	& .wp-block-button__link {
+
+		@mixin button-secondary-arrow;
+		
+	}
 }

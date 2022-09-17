@@ -11,3 +11,38 @@
 		background-color: var(--wp--preset--color--blueprint-primary);
 	}
 }
+
+@define-mixin button-secondary-arrow {
+	background-color: transparent;
+	border-color: transparent;
+	color: var(--wp--preset--color--blueprint-primary);
+	cursor: pointer;
+	display: inline-block;
+	line-height: 1;
+	padding: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	&::after {
+		background-color: var(--wp--preset--color--blueprint-royal);
+		content: "";
+		display: inline-block;
+		height: 10px;
+		margin-left: 0.5em;
+		mask-image: url("../svg/icon-arrow-right.svg");
+		transform: translateX(0);
+		transition-duration: 300ms;
+		transition-property: background-color, transform;
+		width: 20px;
+	}
+
+	&:hover,
+	&:focus {
+
+		&::after {
+			background-color: var(--wp--preset--color--blueprint-aqua-blue);
+			transform: translateX(0.25rem);
+		}
+
+	}
+}

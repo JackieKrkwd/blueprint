@@ -2,7 +2,7 @@
 /**
  * Registration Featured Content Block
  *
- * @package Blueprint Plugin
+ * @package BlueprintPlugin
  */
 
 namespace BlueprintBlocks\FeaturedContent;

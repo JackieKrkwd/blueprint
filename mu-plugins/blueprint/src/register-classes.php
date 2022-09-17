@@ -2,7 +2,7 @@
 /**
  * Register the Blueprint Blocks classes
  *
- * @package Blueprint Plugins
+ * @package BlueprintPlugins
  */
 
 $classes = array(

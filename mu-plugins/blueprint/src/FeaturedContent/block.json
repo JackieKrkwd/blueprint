@@ -10,7 +10,7 @@
 	"attributes": {
 		"image": {
 			"type": "object",
-			"default":  { "id": 0, "url": "http://via.placeholder.com/850x575", "alt": "Featured Content Placeholder Image" }
+			"default":  { "id": 0, "url": "http://via.placeholder.com/800x540", "alt": "Featured Content Placeholder Image" }
 		}
 	},
 	"editorScript": "file:./index.js",

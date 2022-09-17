@@ -89,7 +89,8 @@
 * https://github.com/WordPress/gutenberg/issues/8289#issuecomment-466550852
 */
 
-.entry-content > *:not(.alignfull):not(.alignwide) {
+.entry-content > *:not(.alignfull):not(.alignwide), 
+.container {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1300px;
@@ -882,6 +883,47 @@ big {
 .wp-block-button__link:hover {
 		background-color: var(--wp--preset--color--blueprint-primary);
 	}
+
+.wp-block-button.is-style-secondary .wp-block-button__link {
+
+		background-color: transparent;
+
+		border-color: transparent;
+
+		color: var(--wp--preset--color--blueprint-primary);
+
+		cursor: pointer;
+
+		display: inline-block;
+
+		line-height: 1;
+
+		padding: 0;
+
+		text-decoration: none;
+
+		text-transform: uppercase;
+		
+	}
+
+.wp-block-button.is-style-secondary .wp-block-button__link::after {
+		background-color: var(--wp--preset--color--blueprint-royal);
+		content: "";
+		display: inline-block;
+		height: 10px;
+		margin-left: 0.5em;
+		-webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiBpY29uLWFycm93LXJpZ2h0IiB2aWV3Qm94PSIwIDAgMTkgMTAiIHdpZHRoPSIxOSIgaGVpZ2h0PSIxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTQuMjI2LjNhLjYxMi42MTIgMCAwIDAtLjQyNyAxLjA1MWwzLjAzNiAzLjAzNkgxLjU4M2EuNjEyLjYxMiAwIDEgMCAwIDEuMjI0aDE1LjI1MmwtMy4wMzYgMy4wMzVhLjYxMy42MTMgMCAxIDAgLjg2Ni44NjZsNC4wOC00LjA4YS42MTIuNjEyIDAgMCAwIDAtLjg2NmwtNC4wOC00LjA4YS42MTMuNjEzIDAgMCAwLS40NC0uMTg2WiIgZmlsbD0iIzAwNkVDRiIvPjwvc3ZnPgo=);
+		        mask-image: url(data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiBpY29uLWFycm93LXJpZ2h0IiB2aWV3Qm94PSIwIDAgMTkgMTAiIHdpZHRoPSIxOSIgaGVpZ2h0PSIxMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTQuMjI2LjNhLjYxMi42MTIgMCAwIDAtLjQyNyAxLjA1MWwzLjAzNiAzLjAzNkgxLjU4M2EuNjEyLjYxMiAwIDEgMCAwIDEuMjI0aDE1LjI1MmwtMy4wMzYgMy4wMzVhLjYxMy42MTMgMCAxIDAgLjg2Ni44NjZsNC4wOC00LjA4YS42MTIuNjEyIDAgMCAwIDAtLjg2NmwtNC4wOC00LjA4YS42MTMuNjEzIDAgMCAwLS40NC0uMTg2WiIgZmlsbD0iIzAwNkVDRiIvPjwvc3ZnPgo=);
+		transform: translateX(0);
+		transition-duration: 300ms;
+		transition-property: background-color, transform;
+		width: 20px;
+	}
+
+.wp-block-button.is-style-secondary .wp-block-button__link:hover::after, .wp-block-button.is-style-secondary .wp-block-button__link:focus::after {
+			background-color: var(--wp--preset--color--blueprint-aqua-blue);
+			transform: translateX(0.25rem);
+		}
 
 
 /*# sourceMappingURL=index.css.map*/

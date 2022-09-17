@@ -67,7 +67,7 @@ function Edit(_ref) {
   } = attributes;
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", blockProps, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.BlockControls, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.MediaUploadCheck, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.MediaUpload, {
     onSelect: media => {
-      const url = media.sizes.hasOwnProperty('bp-card-lg') ? media.sizes['bp-card-lg'].url : 'https://via.placeholder.com/850x575/FF0000/FFFFFF?text=Source+Image+Must+Be+At+Least+850x575';
+      const url = media.sizes.hasOwnProperty('bp-card-lg') ? media.sizes['bp-card-lg'].url : 'https://via.placeholder.com/800x540/FF0000/FFFFFF?text=Source+Image+Must+Be+At+Least+800x540';
       const id = media.sizes.hasOwnProperty('bp-card-lg') ? media.id : 0;
       const alt = media.sizes.hasOwnProperty('bp-card-lg') ? media.alt : 'Featured Content Placeholder Image';
       setAttributes({
@@ -172,7 +172,7 @@ module.exports = window["wp"]["i18n"];
   \****************************************/
 /***/ (function(module) {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"blueprint/featured-content","version":"0.1.0","title":"Featured Content","description":"A block with a large image and white box that includes text. Used to feature content on a webpage.","category":"blueprint-blocks","textdomain":"blueprint","attributes":{"image":{"type":"object","default":{"id":0,"url":"http://via.placeholder.com/850x575","alt":"Featured Content Placeholder Image"}}},"editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./index.css"}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"blueprint/featured-content","version":"0.1.0","title":"Featured Content","description":"A block with a large image and white box that includes text. Used to feature content on a webpage.","category":"blueprint-blocks","textdomain":"blueprint","attributes":{"image":{"type":"object","default":{"id":0,"url":"http://via.placeholder.com/800x540","alt":"Featured Content Placeholder Image"}}},"editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./index.css"}');
 
 /***/ })
 

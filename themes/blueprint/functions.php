@@ -2,7 +2,7 @@
 /**
  * Define theme path
  *
- * @package blueprint
+ * @package Blueprint
  */
 
 define( 'BLUEPRINT_VERSION', '0.1.0' );

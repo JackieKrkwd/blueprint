@@ -2,8 +2,9 @@
 /**
  * Template for Featured Content Block
  *
- * @package Blueprint Plugin
+ * @package BlueprintPlugin
  */
+
 ?>
 <div <?php echo get_block_wrapper_attributes( ['class' => 'featured-content'] ); ?>>
 	<div class="featured-content__wrap">

@@ -12,7 +12,7 @@
       "type": "object",
       "default": {
         "id": 0,
-        "url": "http://via.placeholder.com/850x575",
+        "url": "http://via.placeholder.com/800x540",
         "alt": "Featured Content Placeholder Image"
       }
     }
