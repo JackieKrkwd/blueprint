@@ -1,0 +1,13 @@
+@define-mixin button-primary {
+	background-color: var(--wp--preset--color--blueprint-royal);
+	border-radius: 0;
+	font-size: var(--wp--preset--font-size--small);
+	font-weight: var(--wp--custom--font-weight--bold);
+	letter-spacing: var(--wp--custom--letter-spacing--small);
+	text-transform: uppercase;
+	transition: all 500ms ease;
+
+	&:hover {
+		background-color: var(--wp--preset--color--blueprint-primary);
+	}
+}

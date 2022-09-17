@@ -1,0 +1,7 @@
+{
+    "packages": [
+      "themes/blueprint",
+      "mu-plugins/blueprint"
+    ],
+    "version": "independent"
+}

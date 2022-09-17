@@ -1,0 +1,15 @@
+{
+    "name": "jackiekirkwood/blueprint",
+    "autoload": {
+        "psr-4": {
+            "Blueprint\\": "includes/classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JackieKrkwd",
+            "email": "jackiekrkwd@gmail.com"
+        }
+    ],
+    "require": {}
+}

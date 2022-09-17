@@ -1,0 +1,16 @@
+{
+    "name": "jackiekirkwood/blueprint-plugin",
+    "autoload": {
+        "psr-4": {
+            "BlueprintPlugin\\": "includes/classes/",
+			"BlueprintBlocks\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JackieKrkwd",
+            "email": "jackiekrkwd@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "blueprint/featured-content",
+  "version": "0.1.0",
+  "title": "Featured Content",
+  "description": "A block with a large image and white box that includes text. Used to feature content on a webpage.",
+  "category": "blueprint-blocks",
+  "textdomain": "blueprint",
+  "attributes": {
+    "image": {
+      "type": "object",
+      "default": {
+        "id": 0,
+        "url": "http://via.placeholder.com/850x575",
+        "alt": "Featured Content Placeholder Image"
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./index.css"
+}

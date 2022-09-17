@@ -1,0 +1,33 @@
+# Directories
+uploads
+node_modules
+dist
+vendor
+.husky
+languages
+
+# files
+.DS_Store
+.vscode
+.idea
+.~lock*
+*.working
+*.log
+
+# direnv file
+.envrc
+.env
+
+# Plugins
+!mu-plugins/
+mu-plugins/*
+!mu-plugins/blueprint
+
+!plugins/
+plugins/*
+
+!themes/
+themes/*
+!themes/blueprint
+
+.prettierignore

@@ -1,0 +1,26 @@
+{
+  "name": "blueprint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build /src/block-overrides.js /src/index.js",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start /src/block-overrides.js /src/index.js",
+    "env": "wp-env"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^24.1.0",
+    "postcss-import": "^15.0.0",
+    "postcss-mixins": "^9.0.4",
+    "postcss-nested": "^5.0.6",
+    "postcss-preset-env": "^7.8.2",
+    "postinstall": "^0.7.4"
+  }
+}

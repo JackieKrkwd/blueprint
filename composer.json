@@ -1,0 +1,50 @@
+{
+    "name": "jackiekirkwood/blueprint-test",
+    "authors": [
+        {
+            "name": "JackieKrkwd",
+            "email": "jackiekrkwd@gmail.com"
+        }
+    ],
+	"repositories": [
+		{
+		  "type": "composer",
+		  "url" : "https://wpackagist.org"
+		}
+	],
+	"config": {
+		"github-oauth": {
+		},
+		"allow-plugins": {
+		  "dealerdirect/phpcodesniffer-composer-installer": true,
+		  "composer/installers": true
+		}
+	},
+	"require": {
+		"php": ">=7.0",
+    	"composer/installers": "*"
+	},
+	"extra": {
+		"installer-types": [
+			"wordpress-plugin",
+			"wordpress-muplugin"
+		],
+		"installer-paths": {
+			"mu-plugins/{$name}": [
+			"type:wordpress-muplugin"
+			],
+			"plugins/{$name}/": [
+			"type:wordpress-plugin"
+			]
+		}
+	},
+    "minimum-stability": "dev",
+	"prefer-stable": true,
+	"require-dev": {
+		"10up/phpcs-composer": "dev-master"
+	},
+	"scripts": {
+		"lint": "phpcs .",
+		"lint-fix": "phpcbf ."
+	}
+}
