@@ -1,0 +1,8 @@
+*:where(.has-background):not(.alignfull):not(.alignwide) {
+	padding: 1rem;
+}
+
+*:where(.has-background.alignfull),
+*:where(.has-background.alignwide) {
+	padding: 2rem 1rem;
+}

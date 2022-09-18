@@ -33,13 +33,11 @@
 * https://github.com/WordPress/gutenberg/issues/8289#issuecomment-466550852
 */
 
-.entry-content > *:not(.alignfull):not(.alignwide), 
-.container {
+.entry-content > *:not(.alignfull):not(.alignwide),
+.site-width {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1300px;
-	padding-left: 1rem;
-	padding-right: 1rem;
 }
 
 .entry-content > .alignfull {
@@ -52,6 +50,4 @@
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 1600px;
-	padding-left: 1rem;
-	padding-right: 1rem;
 }

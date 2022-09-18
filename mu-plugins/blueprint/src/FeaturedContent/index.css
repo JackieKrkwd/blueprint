@@ -1,6 +1,5 @@
 .featured-content {
-	margin-bottom: 6rem;
-
+	
 	&__wrap {
 		align-items: center;
 		display: flex;

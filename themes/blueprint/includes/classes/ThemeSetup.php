@@ -71,6 +71,12 @@ class ThemeSetup {
 		 */
 		add_theme_support( 'post-thumbnails' );
 		/**
+		 * Add theme support for custom logo
+		 * 
+		 * @link https://developer.wordpress.org/themes/functionality/custom-logo/
+		 */
+		add_theme_support( 'custom-logo' );
+		/**
 		 * Add theme support for block styles 
 		 */
 		add_theme_support( 'wp-block-styles' );

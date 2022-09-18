@@ -1,6 +1,11 @@
 {
 	"version": 2,
 	"settings": {
+		"layout": {
+			"contentSize": "1300px",
+			"wideSize": "1600px"
+		},
+		"useRootPaddingAwareAlignments": true,
 		"appearanceTools": true,
 		"custom": {
 			"font-weight": {
@@ -152,11 +157,7 @@
 				}
 			]
 		},
-	  	"blocks": {},
-		"layout": {
-			"contentSize": "1300px",
-			"wideSize": "1600px"
-		}
+	  	"blocks": {}
 	},
 	"styles": {
 		"color": {
@@ -167,6 +168,43 @@
 			"fontFamily": "var(--wp--preset--font-family--open-sans)",
 			"fontSize": "var(--wp--preset--font-size--normal)",
 			"fontWeight": "var(--wp--custom--font-weight--regular)"
+		},
+		"spacing": {
+			"padding": {
+				"top": "1rem",
+				"right": "1rem",
+				"bottom": "1rem",
+				"left": "1rem"
+			},
+			"margin": {
+				"top": "0px",
+				"right": "0px",
+				"bottom": "6rem",
+				"left": "0px"
+			}
+		},
+		"blocks": {
+			"core/group": {
+				"spacing": {
+					"margin": {
+						"bottom": "6rem"
+					}
+				}
+			},
+			"core/columns": {
+				"spacing": {
+					"margin": {
+						"bottom": "6rem"
+					}
+				}
+			},
+			"blueprint/featured-content": {
+				"spacing": {
+					"margin": {
+						"bottom": "6rem"
+					}
+				}
+			}
 		},
 		"elements": {
 			"h1": {

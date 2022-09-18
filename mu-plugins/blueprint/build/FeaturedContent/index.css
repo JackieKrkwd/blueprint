@@ -1,33 +1,25 @@
 /*!***********************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/FeaturedContent/index.css ***!
   \***********************************************************************************************************************************************************************************/
-.featured-content {
-	margin-bottom: 6rem;
-}
-
-	.featured-content__wrap {
+.featured-content__wrap {
 		align-items: center;
 		display: flex;
 		flex-direction: column;
-	}
+	}	
 
-	@media screen and (min-width: 768px) {
-
-	.featured-content__wrap {
+		@media screen and (min-width: 768px) {.featured-content__wrap {
 			align-items: flex-start;
 			flex-direction: row;
 			justify-content: space-between
 	}
-		}
+		}	
 
-	@media screen and (min-width: 768px) and (max-width: 1024px) {
-
-	.featured-content__wrap {
+		@media screen and (min-width: 768px) and (max-width: 1024px) {.featured-content__wrap {
 			padding-left: 1rem;
 			padding-right: 1rem
 	}
 		}
-
+	
 	.featured-content__box {
 		background-color: #fff;
 		box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.3);
@@ -35,35 +27,35 @@
 		padding: 3rem;
 		width: 90%;
 	}
-
+	
 	@media screen and (min-width: 768px) {
-
+	
 	.featured-content__box {
 			margin-left: -100%;
 			margin-top: 25%;
 			max-width: 50%
 	}
 		}
-
+	
 	@media screen and (min-width: 768px) and (max-width: 1024px) {
-
+	
 	.featured-content__box {
 			margin-right: -1rem;
 			margin-top: 40%
 	}
 		}
-
+	
 	@media screen and (min-width: 1024px) {
-
+	
 	.featured-content__box {
 			margin-top: 28%
 	}
 		}
-
+	
 	.featured-content__box *:first-child {
 			margin-top: 0;
 		}
-
+	
 	.featured-content__box *:last-child {
 			margin-bottom: 0;
 		}
