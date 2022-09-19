@@ -222,14 +222,6 @@ html {
 	 ========================================================================== */
 
 /**
- * Remove the margin in all browsers.
- */
-
-/* body {
-	margin: 0;
-} */
-
-/**
  * Render the `main` element consistently in IE.
  */
 
@@ -836,11 +828,6 @@ big {
 .sticky {
 	display: block;
 }
-
-/* .post,
-.page {
-	margin: 0 0 1.5em;
-} */
 
 .updated:not(.published) {
 	display: none;
